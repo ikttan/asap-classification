@@ -8,7 +8,8 @@
 
 2. ease
 - contains `ease-sample.ipynb` - a sample code on utilizing the [EASE library by edX](https://github.com/edx/ease) 
-- usage of ease is referenced from the [flexible domain adaptation paper](./reference-papers/flexible-domain-adapation-nus.pdf)
+- usage of ease is referenced from the [flexible domain adaptation paper](./reference-papers/flexible-domain-adaptation-nus.pdf)
+
 
 3. prompts
 - contains the prompts of set 1 to 8 in `.txt` format 
