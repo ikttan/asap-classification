@@ -1,3 +1,8 @@
+"""
+Ignore this, it is just a "storage" for me to dump random codes  
+"""
+
+
 np.random.seed(500)
 tag_map = defaultdict(lambda: wn.NOUN)
 tag_map['J'] = wn.ADJ
