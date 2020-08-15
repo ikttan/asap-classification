@@ -232,6 +232,17 @@ def get_vocab(text, score, max_feats=750, max_feats2=200):
 
     return vocab
 
+def get_vocab_essays_count(text, score):
+    """
+    Helper function that returns the vocab count of each input essay
+    text is a list of essays
+    score is a list of scores, with score[n] corresponding to text[n
+    """
+    vocab_count = []
+    for i in range(len(text)):
+        vocab_count.append((len(get_vocab([text[i]], [score[i]]))))
+    return vocab_count
+
 
 def edit_distance(s1, s2):
     """
